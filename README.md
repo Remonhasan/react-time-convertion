@@ -11,3 +11,14 @@ You can install `time-convert-24hour` via npm:
 
 ```bash
 npm install time-convert-24hour
+
+## Usage
+To use `time-convert-24hour`, import the timeConvert function and pass a 24-hour format time string as an argument. The function will return the time in a 12-hour format with AM/PM.
+
+```bash
+import { timeConvert } from 'time-convert-24hour';
+
+const time24 = '14:30'; // Example 24-hour time
+const time12 = timeConvert({ time24 });
+console.log(time12); // Output: '2:30 PM'
+
