@@ -27,5 +27,7 @@ const time24 = '14:30'; // Example 24-hour time
 const time12 = timeConvert({ time24 });
 console.log(time12); // Output: '2:30 PM'
 ```
+## License 
+This package is open-source and released under the MIT License. Feel free to use and modify it in your projects.
 
 
